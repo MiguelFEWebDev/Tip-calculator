@@ -19,6 +19,7 @@
 
 body {
   background-color: var(--lightGrayishCyan);
+  font-family: var(--mainFont);
 }
 .container {
   margin: 3rem;
@@ -50,7 +51,7 @@ body {
 
 .totalCosts {
   min-height: 400px;
-  max-width: 500px;
+  min-width: 300px;
   padding: 1rem;
 
   color: var(--white);
