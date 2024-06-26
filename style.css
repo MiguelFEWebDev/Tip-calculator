@@ -16,3 +16,57 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: var(--lightGrayishCyan);
+}
+.container {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-inline: auto;
+}
+.logo {
+  margin-bottom: 2rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  max-width: 660px;
+  padding: 2rem;
+  background: var(--white);
+  border-radius: 20px;
+}
+
+.calcCost {
+  min-height: 400px;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.totalCosts {
+  min-height: 400px;
+  max-width: 500px;
+  padding: 1rem;
+
+  color: var(--white);
+  background: var(--veryDarkCyan);
+  border-radius: 20px;
+}
+
+@media (max-width: 420px) {
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 400px;
+    max-width: 660px;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 20px;
+  }
+}
