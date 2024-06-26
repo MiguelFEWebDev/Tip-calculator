@@ -75,8 +75,7 @@ body {
 
 /* Calc cost */
 .bill-form,
-.select-tip,
-.bill-form {
+.select-tip {
   margin-bottom: 1rem;
 }
 
@@ -100,6 +99,7 @@ body {
   width: 60px;
   height: 40px;
 
+  font-size: 1.1rem;
   color: var(--white);
   background-color: var(--veryDarkCyan);
   border: none;
@@ -107,4 +107,24 @@ body {
 
 .tipStyle button:hover {
   background-color: var(--strongCyan);
+}
+
+/* display cost */
+
+.tip-amount,
+.tip-total,
+.reset-calc {
+  margin-bottom: 1rem;
+}
+
+.resetButton button {
+  display: flex;
+  justify-content: center;
+  font-family: var(--mainFont);
+  background-color: var(--strongCyan);
+  font-size: 1.2rem;
+  border-radius: 5px;
+  min-width: 20rem;
+  height: 40px;
+  border: none;
 }
