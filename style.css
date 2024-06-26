@@ -1,6 +1,7 @@
 /* Global variables */
 :root {
   /* Color */
+  --strongCyan: hsl(172, 67%, 45%);
   --veryDarkCyan: hsl(183, 100%, 15%);
   --darkGrayish: hsl(186, 14%, 43%);
   --grayishCyan: hsl(184, 14%, 56%);
@@ -85,4 +86,25 @@ body {
 .tipGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.tipStyle {
+}
+
+.tipStyle button {
+  font-family: var(--mainFont);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+
+  color: var(--white);
+  background-color: var(--veryDarkCyan);
+  border: none;
+}
+
+.tipStyle button:hover {
+  background-color: var(--strongCyan);
 }
