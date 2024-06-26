@@ -71,3 +71,18 @@ body {
     border-radius: 20px;
   }
 }
+
+/* Calc cost */
+.bill-form,
+.select-tip,
+.bill-form {
+  margin-bottom: 1rem;
+}
+
+.select-tip p {
+  margin-bottom: 1rem;
+}
+.tipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
