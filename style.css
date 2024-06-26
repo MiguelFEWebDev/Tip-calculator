@@ -74,7 +74,7 @@ body {
 }
 
 /* Calc cost */
-.bill-form,
+.bill-container,
 .select-tip {
   margin-bottom: 1rem;
 }
