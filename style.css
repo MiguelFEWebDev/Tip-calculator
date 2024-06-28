@@ -135,3 +135,14 @@ body {
   color: var(--strongCyan);
   font-size: 2rem;
 }
+
+/* Labels/input */
+
+.inputPeople,
+.inputBill {
+  height: 28px;
+  font-size: 1rem;
+  background-color: var(--veryLightGrayishCyan);
+  border: none;
+  font-family: var(--mainFont);
+}
