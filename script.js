@@ -10,13 +10,13 @@ const totalPerPerson = document.getElementById("totalPerPerson");
 let billPerPerson = bill.valueAsNumber / peopleAmount.valueAsNumber;
 
 // Display in div
-totalPerPerson.textContent = billPerPerson;
+totalPerPerson.textContent = billPerPerson || 0;
 
 // Function for updating the total
 function updateTotal() {
   //recalculating bill
   billPerPerson = bill.valueAsNumber / peopleAmount.valueAsNumber;
-  totalPerPerson.textContent = billPerPerson;
+  totalPerPerson.textContent = billPerPerson || 0;
 }
 
 // Sending the data on inputs
